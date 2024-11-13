@@ -8,10 +8,9 @@ This project is an end-to-end machine learning application that predicts custome
 - **models/**: Contains the trained model.
 - **reports/**: Contains evaluation metrics and plots.
 - **src/**: Source code for data processing and training.
-- **frontend/**: Streamlit app for the frontend.
 - **tests/**: Unit tests for the project.
 - **requirements.txt**: Python dependencies.
-- **.github/workflows/**: CI pipeline configuration.
+
 
 ## Setup Instructions
 
