@@ -26,22 +26,22 @@ This project is an end-to-end machine learning application that predicts custome
 
    ```bash
    git clone https://github.com/paramchordiya/customer_churn_prediction.git
-   cd customer_churn_prediction
-```
+   cd customer_churn_prediction```
 
-Download the dataset
+2. **Download the dataset**
 
 Place the WA_Fn-UseC_-Telco-Customer-Churn.csv file into data/raw/ directory.
 Install dependencies
 
-bash
+```bash
 Copy code
-pip install -r requirements.txt
+pip install -r requirements.txt```
+
 Train the model
 
-bash
+```bash
 Copy code
-python src/train_model.py
+python src/train_model.py```
 This will preprocess the data, train the model with hyperparameter tuning, and generate evaluation reports.
 Run the Streamlit app
 
