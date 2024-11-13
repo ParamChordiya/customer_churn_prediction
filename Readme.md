@@ -30,8 +30,8 @@ This project is an end-to-end machine learning application that predicts custome
 
 2. **Download the dataset**
 
-Place the WA_Fn-UseC_-Telco-Customer-Churn.csv file into data/raw/ directory.
-Install dependencies
+```Place the WA_Fn-UseC_-Telco-Customer-Churn.csv file into data/raw/ directory.```
+
 
 ```bash
 pip install -r requirements.txt
@@ -43,35 +43,21 @@ pip install -r requirements.txt
 python src/train_model.py
 ```
 This will preprocess the data, train the model with hyperparameter tuning, and generate evaluation reports.
-Run the Streamlit app
+4. **Run the Streamlit app**
 
 ```bash
 
 streamlit run frontend/app.py
 ```
-Access the Application
+## Access the Application
 
 ```bash
 https://custchurnprediction.streamlit.app/
 ```
+```
 Use the Prediction tab to input customer data and predict churn.
 Use the Model Evaluation tab to view model performance metrics and plots.
-Testing
-Run unit tests using:
+```
 
-bash
-Copy code
-pytest tests/
-CI Pipeline
-The project includes a GitHub Actions workflow for continuous integration.
-On each push to the main branch, tests are run, and the model is trained.
-Future Enhancements
-Implement authentication and security measures.
-Deploy the application to a cloud platform.
-Integrate a database for data storage.
-Use MLflow or similar tool for experiment tracking.
-License
-This project is licensed under the MIT License.
-
-Acknowledgements
+## Acknowledgements
 Dataset from Kaggle: Telco Customer Churn
