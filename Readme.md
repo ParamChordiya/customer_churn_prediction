@@ -34,25 +34,26 @@ Place the WA_Fn-UseC_-Telco-Customer-Churn.csv file into data/raw/ directory.
 Install dependencies
 
 ```bash
-Copy code
-pip install -r requirements.txt```
-
-Train the model
+pip install -r requirements.txt
+```
+3. **Train the model**
 
 ```bash
-Copy code
-python src/train_model.py```
+
+python src/train_model.py
+```
 This will preprocess the data, train the model with hyperparameter tuning, and generate evaluation reports.
 Run the Streamlit app
 
-bash
-Copy code
+```bash
+
 streamlit run frontend/app.py
+```
 Access the Application
 
-Open your browser and navigate to http://localhost:8501 to use the Streamlit app.
-Usage
-Navigate to http://localhost:8501 in your browser.
+```bash
+https://custchurnprediction.streamlit.app/
+```
 Use the Prediction tab to input customer data and predict churn.
 Use the Model Evaluation tab to view model performance metrics and plots.
 Testing
